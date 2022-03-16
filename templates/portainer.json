@@ -909,6 +909,7 @@
         "url": "https://github.com/portainer/templates",
         "stackfile": "stacks/fdo/docker-stack.yml"
       },
+<<<<<<< HEAD
       "env": [
         {
           "name": "owner_api_user",
@@ -922,3 +923,16 @@
     }
   ]
 }
+=======
+      {
+        "name": "CFENGINE",
+        "set": "lucee@4.5"
+      }
+    ],
+    "ports": [
+      "8080/tcp", "8443/tcp"
+    ],
+    "volumes": ["/data/contentbox/db", "/app/includes/shared/media"]
+  }
+]
+>>>>>>> 0355b386f296349d033b8d708a48cdc8f2516671
